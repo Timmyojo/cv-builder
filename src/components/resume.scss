@@ -1,0 +1,51 @@
+.resume {
+    width: 500px;
+    max-width: 95%;
+    margin: 20px auto;
+    padding: 40px 20px;
+    background-color: #fff;
+    text-transform: capitalize;
+
+    .bio {
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+
+        h2 {
+            font-size: 1.4rem;
+        }
+        .job-title {
+            font-weight: 600;
+            color: gray;
+        }
+    }
+
+    .experience {
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+
+    .education {
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+
+    .company-city,
+    .position-dates,
+    .school-city,
+    .degree-dates,
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+        }
+    .company-city p:nth-of-type(1),
+    .position-dates p:nth-of-type(1),
+    .school-city p:nth-of-type(1),
+    .degree-dates p:nth-of-type(1) {
+        font-weight: 700;
+        }
+     
+}
